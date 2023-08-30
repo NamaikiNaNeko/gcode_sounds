@@ -10,8 +10,10 @@ https://github.com/NamaikiNaNeko/gcode_sounds/assets/16394540/d6f92f35-99d0-4ed8
 # Hardware
 To play audio files, you will need an a device with an audio output (3.5mm audio jack, HDMI, etc.), an amplifier, and speakers. If your printer already has a 5V power supply, a handy little 10W amplifier such as what's linked below would be a perfect addition, and is what I used on my printers. There's also an amp bracket .stl provided for this particular amp in the repository. 
 ![el cheapo audio amp](https://m.media-amazon.com/images/I/71c2h8H69YL._AC_SX679_.jpg)
+
 I used some cheap sealed speakers but they sound pretty bad; they work alright for voice but music is right out. Look around for something else if you want high fidelity audio, but remember it's just a printer.
-If you're adding an amp to your 5V supply, make sure your it provides enough power. You don't want to accidentally brownout your pi in the middle of a print because you a 10W amp to your system on top of your pi, fans, LED strips, or whatever else you have on 5V.
+
+If you're adding an amp to your 5V supply, make sure your it provides enough power. You don't want to accidentally brownout your pi in the middle of a print because you added a 10W load to your system on top of your pi, fans, LED strips, or whatever else you have on 5V.
 Links:
 https://www.amazon.com/dp/B08RDN58SZ
 https://www.amazon.com/dp/B0BHST51PQ
