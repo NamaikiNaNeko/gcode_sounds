@@ -1,12 +1,21 @@
 ﻿# gcode_sounds
 gcode_sounds is a collection of voice notifications for your printer. Provided .wav and .mp3 format files include 37 different voice notifications of varying usefulness depending on your setup. You will need to pick and choose which sounds you want, or you are always free to change, add, or remove whatever you want to suit your needs. For a printer running klipper, a configuration file and file generator is provided to automatically populate gcode macros in the gcode_sounds.cfg file.
 Hopefully you will find this as helpful as I have if your printer is in another room and it takes a while before you notice the absence of stepper motor sounds during a filament runout.
+Demonstration (unmute video to hear sound):
+
+https://github.com/NamaikiNaNeko/gcode_sounds/assets/16394540/d6f92f35-99d0-4ed8-85a8-8bbbbb04e2e7
+
+
 
 # Hardware
-To play audio files, you will need an a device with an audio output (3.5mm audio jack, HDMI, etc.), an amplifier, and speakers. If your printer already has a 5V power supply, a handy little 10W amplifier such as what's linked below would be a perfect addition, and is what I used on my printers. There's also an amp bracket .stl provided for this particular amp in the repository. https://www.amazon.com/dp/B08RDN58SZ
+To play audio files, you will need an a device with an audio output (3.5mm audio jack, HDMI, etc.), an amplifier, and speakers. If your printer already has a 5V power supply, a handy little 10W amplifier such as what's linked below would be a perfect addition, and is what I used on my printers. There's also an amp bracket .stl provided for this particular amp in the repository. 
 ![el cheapo audio amp](https://m.media-amazon.com/images/I/71c2h8H69YL._AC_SX679_.jpg)
-https://www.amazon.com/dp/B0BHST51PQ I used these speakers but they sound pretty bad; they work alright for voice but music is right out. Look around for something else if you want quality, but remember it's just a printer.
-If you're adding this amp, make sure your 5V supply provides enough power. You don't want to accidentally brownout your pi in the middle of a print because you a 20W amp to your system.
+I used some cheap sealed speakers but they sound pretty bad; they work alright for voice but music is right out. Look around for something else if you want high fidelity audio, but remember it's just a printer.
+If you're adding an amp to your 5V supply, make sure your it provides enough power. You don't want to accidentally brownout your pi in the middle of a print because you a 10W amp to your system on top of your pi, fans, LED strips, or whatever else you have on 5V.
+Links:
+https://www.amazon.com/dp/B08RDN58SZ
+https://www.amazon.com/dp/B0BHST51PQ
+
 
 # Setup
 1. You need to be able to play sounds from the command line. Install aplay and mpg321 on the device running klipper.
